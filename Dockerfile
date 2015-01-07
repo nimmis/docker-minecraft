@@ -11,4 +11,4 @@ RUN apt-get update && \
 
 RUN adduser --disabled-password --gecos ",,," --quiet minecraft
 
-
+ADD minecraft_server /etc/init.d/
